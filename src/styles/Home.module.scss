@@ -1,0 +1,52 @@
+$primary-color: blueviolet;
+
+.container {
+  min-height: 100vh;
+  padding: 0 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  max-width: 800px;
+  padding: 5rem 0;
+}
+
+.title {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 3em;
+  text-align: center;
+}
+
+.posts {
+  
+  list-style: none;
+  padding: 0;
+  margin: 5em 0;
+
+  & > li {
+    
+    margin-bottom: 3em;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+
+  }
+
+  p {
+
+    &:first-child {
+      margin-top: 0;
+    }
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+
+  }
+
+}

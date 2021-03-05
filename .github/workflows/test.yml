@@ -23,3 +23,5 @@ jobs:
         node-version: ${{ matrix.node-version }}
     - run: yarn install
     - run: npx eyes-storybook
+      env:
+        APPLITOOLS_API_KEY: ${{ secrets.APPLITOOLS_API_KEY }}

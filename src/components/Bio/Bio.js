@@ -4,7 +4,7 @@ const Bio = ({ headshot, name, tagline, role }) => {
   return (
     <div className={styles.bio}>
       <div className={styles.bioImage}>
-      <img src="colby" alt={`Headshot of ${name}`} />
+      <img src={headshot} alt={`Headshot of ${name}`} />
       </div>
       <div className={styles.bioContent}>
         <p className={styles.bioContentName}>

@@ -10,6 +10,7 @@
     "build-storybook": "build-storybook"
   },
   "dependencies": {
+    "encoding": "^0.1.13",
     "netlify-identity-widget": "^1.9.1",
     "next": "10.0.7",
     "react": "17.0.1",

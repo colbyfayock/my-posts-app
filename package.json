@@ -12,7 +12,6 @@
   "dependencies": {
     "netlify-identity-widget": "^1.9.1",
     "next": "10.0.7",
-    "node-fetch": "^2.6.1",
     "react": "17.0.1",
     "react-dom": "17.0.1",
     "react-icons": "^4.2.0",

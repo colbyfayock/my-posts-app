@@ -1,4 +1,4 @@
-const fetch = require('node-fetch').default;
+const fetch = require('node-fetch');
 
 export default async (req, res) => {
 

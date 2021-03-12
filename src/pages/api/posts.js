@@ -2,8 +2,6 @@ const fetch = require('node-fetch');
 
 export default async (req, res) => {
 
-  console.log('req', req.method);
-
   if ( req.method === 'GET' ) {
     const response = await fetch(`https://api.airtable.com/v0/${process.env.AIRTABLE_BASE_ID}/Posts`, {
       headers: {
@@ -65,8 +63,6 @@ export default async (req, res) => {
       },
       body: JSON.stringify(data)
     });
-
-    console.log('response', response);
 
     res.status(201).json({ response })
 

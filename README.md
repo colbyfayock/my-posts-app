@@ -4,6 +4,8 @@ Demo for the course From Design to Development that takes you from Figma and Sto
 
 Learn how to create your own with [From Design to Development Crash Course - Full Stack Next.js Tutorial](https://www.youtube.com/watch?v=QjZIeA952jE)
 
+🚀 See Demo: https://my-posts-app-colby.netlify.app/
+
 📺 YouTube: https://www.youtube.com/watch?v=QjZIeA952jE
 
 💻 Learn More: https://fromdesignto.dev/
